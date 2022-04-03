@@ -4,7 +4,7 @@
 #include <SPI.h>
 #include "SdFat.h" // For microSD reader
 #include <LiquidCrystal_I2C.h> // For display
-#include <DS1302.h> // For RTC 
+#include <DS1302.h> // For RTC (http://www.rinkydinkelectronics.com/library.php?id=5)
 #include <EEPROM.h> // For storing which display screen was selected when the system was last turned off
 
 // Pin macros
