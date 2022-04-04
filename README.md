@@ -16,6 +16,8 @@ We're using a thermistor. It is to be mounted to the fuel cell stack such that t
 ## UI
 We have three screens available. Acceleration is in m/s^2 and temperature is in degrees C. You can add your own if you want to dive through the code, it's in the only switch-case statement in there. If you do add a screen or remove a screen, be sure to change ```numDisplays``` on line 45 to be accurate to your change.
 
+If the display brightness/contrast is not ideal for your use case, there is a potentiometer on the back of the LCD which adjusts this (if it was previously at an acceptable level and lighting hasn't drastically changed, this may be an indicator of a low battery).
+
 The buttons are labelled. The < button goes to the previous screen, the ⏸︎ button pauses the display (data is still recorded to microSD card). The > button goes to the next screen. The ⚑ button places a checkpoint in the .csv file (a * in the flag column). This will hopefully allow you to quickly find relevant data without having to give the box a big bump to indicate a test start or something.
 
 !! TURN OFF SYSTEM BEFORE REMOVING MICROSD CARD !!
