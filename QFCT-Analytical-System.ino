@@ -235,8 +235,8 @@ void printDataToLCD(sensors_event_t a, float temp, int spm) {
   switch (displaySelect) {
     case 0:
       lcd.setCursor(0, 0);
-      lcd.print("Z:");
-      lcd.print(a.acceleration.z + Z_OFF);
+      lcd.print("X:");
+      lcd.print(a.acceleration.x + X_OFF);
       lcd.print("     ");
     
       lcd.setCursor(8, 0);
