@@ -22,7 +22,7 @@ The buttons are labelled. The < button goes to the previous screen, the ⏸︎ b
 
 !! TURN OFF SYSTEM BEFORE REMOVING MICROSD CARD !!
 
-## Troubleshooting tips: 
+## Troubleshooting Tips: 
 "SD failure" probably means battery is low or disconnected, try fixing this before bothering with any software troubleshooting
 
 Make sure not to let too many files pile up on the microSD card, I believe the max is 100 before errors will arise.
