@@ -18,6 +18,8 @@ We have three screens available. Acceleration is in m/s^2 and temperature is in 
 
 The buttons are labelled. The < button goes to the previous screen, the ⏸︎ button pauses the display (data is still recorded to microSD card). The > button goes to the next screen. The ⚑ button places a checkpoint in the .csv file (a * in the flag column). This will hopefully allow you to quickly find relevant data without having to give the box a big bump to indicate a test start or something.
 
+!! TURN OFF SYSTEM BEFORE REMOVING MICROSD CARD !!
+
 ## Troubleshooting tip: 
 "SD failure" probably means battery is low or disconnected, try fixing this before bothering with any software troubleshooting
 
