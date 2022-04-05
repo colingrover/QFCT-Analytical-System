@@ -192,7 +192,7 @@ int getSPM(){
       time2 = time1; 
       time1 = currentTime; 
       currentTime = millis(); 
-      rotationTime = (currentTime - time3)/3; //takes the time it takes for the wheel to do 1.5 rotations, and divides bit by 1.5. 
+      rotationTime = (currentTime - time3)/3; //takes average of 3 previous time intervals between spoke detection
       spm = 60000/rotationTime; 
       return spm;
 }
