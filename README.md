@@ -1,5 +1,7 @@
 # QFCT Analytical System
 
+Sorry that the code is overcommented and underorganized - we were under the impression it would remain internal until quite late in the project. As such, we tried to make it legible but reach out if there's a part that isn't.
+
 Okay, since this isn't a proper report, here's a more straightforward description of how this thing works.
 
 ## Tachometer
