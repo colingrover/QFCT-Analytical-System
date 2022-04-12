@@ -7,13 +7,13 @@ Okay, since this isn't a proper report, here's a more straightforward descriptio
 ## Tachometer
 We're using an IR sensor for this. It is found within the grey 3D printed case. As we don't know the details of your team's wheel, we are simply using this device to report "Spokes Per Minute" or SPM. Essentially this is counting the rate at which spokes of the wheel are detected by the sensor (since we are assuming you'll still be using a bike tire as you have previously). This metric is available so you can derive RPM (sorry for making you do the work on this one). Divide SPM we report by how many spokes your tire has and boom there's your RPM. 
 
-Mount this sensor such that the bulbs are pointing where the spokes will be passing by.
+Mount this sensor in such a way that the bulbs are pointing where the spokes will be passing by.
 
 ## Vibration Sensor
 We're using an MPU6050 accelerometer for this. It's axes are labelled on the box. Not much to say about it here.
 
 ## Temperature Sensor
-We're using a thermistor. It is to be mounted to the fuel cell stack such that the bare minimum amount of wire is touching the hot elements (just for safety, and because I don't know how much you can trust the electrical tape that's on that thing), but the end of thermistor obviously must be on what you want to measure.
+We're using a thermistor. It is to be mounted to the fuel cell stack such that the bare minimum amount of wire is touching the hot elements (just for safety, and because I don't know how much you can trust the electrical tape that's on that thing), but the end of thermistor naturally must be on what you want to measure.
 
 ## UI
 We have three screens available. Acceleration is in m/s<sup>2</sup> and temperature is in °C. You can add your own if you want to dive through the code, it's in the only switch-case statement in there. If you do add a screen or remove a screen, be sure to change ```numDisplays``` on line 45 to be accurate to your change.
