@@ -16,7 +16,7 @@ We're using an MPU6050 accelerometer for this. It's axes are labelled on the box
 We're using a thermistor. It is to be mounted to the fuel cell stack such that the bare minimum amount of wire is touching the hot elements (just for safety, and because I don't know how much you can trust the electrical tape that's on that thing), but the end of thermistor obviously must be on what you want to measure.
 
 ## UI
-We have three screens available. Acceleration is in m/s^2 and temperature is in degrees C. You can add your own if you want to dive through the code, it's in the only switch-case statement in there. If you do add a screen or remove a screen, be sure to change ```numDisplays``` on line 45 to be accurate to your change.
+We have three screens available. Acceleration is in m/s<sup>2</sup> and temperature is in °C. You can add your own if you want to dive through the code, it's in the only switch-case statement in there. If you do add a screen or remove a screen, be sure to change ```numDisplays``` on line 45 to be accurate to your change.
 
 If the display brightness/contrast is not ideal for your use case, there is a potentiometer on the back of the LCD which adjusts this (if it was previously at an acceptable level and lighting hasn't drastically changed, this may be an indicator of a low battery).
 
