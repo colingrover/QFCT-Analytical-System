@@ -195,7 +195,7 @@ int getSPM(){
       rotationTime = (currentTime - time3)/3; //takes average of 3 previous time intervals between spoke detection
       spm = 60000/rotationTime; 
       return spm;
-}
+  }
 }
 
 void buttonPresses() {
